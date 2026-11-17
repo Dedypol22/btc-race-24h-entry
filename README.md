@@ -1,0 +1,1 @@
+Trend-following bot using EMA crossover and strength filter. Trades cbBTC when the fast EMA (20 bars) is above the slow EMA (120 bars) with sufficient strength (15 bps minimum), holding 90% of equity. Sells automatically if price drops more than 1.5% below slow EMA. Minimum 15-bar holding period unless protective exit triggers.
